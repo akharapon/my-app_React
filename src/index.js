@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+//import Basic from './myform';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+
 
 function Square(props) {
   return (
@@ -148,3 +150,4 @@ function calculateWinner(squares) {
   }
   return null;
 }
+
